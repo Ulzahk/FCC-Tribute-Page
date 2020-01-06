@@ -1,1 +1,2 @@
 # Pagina-de-Homenaje
+## Caracteristicas
