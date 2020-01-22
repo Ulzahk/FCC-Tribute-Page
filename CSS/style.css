@@ -5,3 +5,41 @@ header {
 main {
     background-color: blue;
 }
+
+#img-div {
+    background-color: yellow;
+}
+
+#skins{
+    background-color: green;
+    margin: 10px 50px;
+}
+
+#small-image{
+    max-width: 25%;
+    height: auto;
+    transition: 1s;
+    padding: 15px;
+
+}
+
+#small-image:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+#tribute-infor {
+    background-color: white;
+}
+
+#list-strengths {
+    background-color: tomato;
+}
+
+#list-weaknesses{
+    background-color: yellowgreen;
+}
+
+footer {
+    background-color: violet;
+}
