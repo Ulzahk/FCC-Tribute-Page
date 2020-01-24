@@ -1,34 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-column: autofit;
-    grid-template-columns: 1fr 8fr 1fr;
-    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
 }
 
 header {
     background-color: red;
     grid-column: 2/3;
     grid-row: 1/2;
+    text-align: center;
 }
 
 main {
     background-color: blue;
     grid-column: 2/3;
     grid-row: 2/3;
+    text-align: center;
 }
 
 #img-div {
     background-color: yellow;
     margin-top: 2%;
     margin-bottom: 2%;
+    text-align: center;
 }
 
 #img-caption{
+    font-style: italic;
+}
+
+h4 {
+    
 }
 
 #image{
-    max-width:75%;
+    max-width:95%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -44,7 +53,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-
+    text-align: center;
 }
 
 #small-image{
@@ -66,10 +75,27 @@ main {
     transform: scale(1.1);
 }
 
-#tribute-infor {
-    background-color: white;
+#tribute-info {
+    background-color: #222;
 }
 
+#characteristics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#list-strengths  {
+    text-align: center;
+}
+#list-weaknesses {
+    text-align: center;
+}
+ul {
+    text-align: left;
+}
+#subtitle {
+    display: inline-block;
+}
 #list-strengths {
     background-color: tomato;
 }
@@ -79,7 +105,31 @@ main {
 }
 
 footer {
+    display: grid;
     background-color: violet;
     grid-column: 2/3;
     grid-row: 3/4;
+    text-align: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    
+}
+
+footer p {
+    display: inline-block;
+}
+
+@media only screen and (max-width:600px){
+
+    #skins {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #characteristics {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
 }
