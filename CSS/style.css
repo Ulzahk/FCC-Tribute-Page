@@ -20,22 +20,29 @@ header {
 }
 
 main {
-    background-color: blue;
+    background: rgba(0,0,0,0);
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
 }
 
 #img-div {
-    background-color: yellow;
-    margin-top: 2%;
+    background: rgba(0,0,0,0.5);
+    border-style: outset;
+    border-color: #D4AF37;
     margin-bottom: 2%;
     text-align: center;
     padding-top: 4%;
 }
 
+
+
+
+
 #img-caption{
     font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #image{
@@ -47,10 +54,10 @@ main {
 }
 
 
-
-
 #skins{
-    background-color: green;
+    background-color:  rgba(0,0,0,0.5);
+    border-style: outset;
+    border-color: #D4AF37;
     margin: 10px 10px 10px 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -73,24 +80,33 @@ main {
 }
 
 #small-image:hover{
-    filter: grayscale(100%);
-    transform: scale(1.1);
+    filter: grayscale(80%);
+    transform: scale(1.03);
 }
 
 #tribute-info {
-    background-color: #222;
+    background: rgba(0,0,0,0);
 }
 
 #characteristics {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
 }
 
 #list-strengths  {
     text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 2%;
+    border-style: outset;
+    border-color: #D4AF37;
 }
 #list-weaknesses {
     text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 2%;
+    border-style: outset;
+    border-color: #D4AF37;
 }
 ul {
     text-align: left;
@@ -98,17 +114,10 @@ ul {
 #subtitle {
     display: inline-block;
 }
-#list-strengths {
-    background-color: tomato;
-}
-
-#list-weaknesses{
-    background-color: yellowgreen;
-}
 
 footer {
     display: grid;
-    background-color: violet;
+    background: rgba(0,0,0,0);
     grid-column: 2/3;
     grid-row: 3/4;
     text-align: center;
@@ -135,5 +144,6 @@ footer p {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+        grid-gap: 2%;
     }
 }
