@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: grid;
     grid-template-columns: 1fr 10fr 1fr;
     grid-template-rows: 1fr 10fr 1fr;
+    background-color: #222;
+    color: white;
+    background-color: #222222;
+    background-image: url("https://www.transparenttextures.com/patterns/my-little-plaid-dark.png");
 }
 
 header {
@@ -12,6 +16,7 @@ header {
     grid-column: 2/3;
     grid-row: 1/2;
     text-align: center;
+    background: rgba(0,0,0,0);
 }
 
 main {
@@ -26,14 +31,11 @@ main {
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: center;
+    padding-top: 4%;
 }
 
 #img-caption{
     font-style: italic;
-}
-
-h4 {
-    
 }
 
 #image{
@@ -110,8 +112,6 @@ footer {
     grid-column: 2/3;
     grid-row: 3/4;
     text-align: center;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
     
 }
 
@@ -120,6 +120,10 @@ footer p {
 }
 
 @media only screen and (max-width:600px){
+
+    body{
+        grid-template-rows: 1fr 16fr 1fr;
+    }
 
     #skins {
         display: grid;
