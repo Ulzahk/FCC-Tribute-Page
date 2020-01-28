@@ -80,7 +80,6 @@ main {
 }
 
 #small-image:hover{
-    filter: grayscale(80%);
     transform: scale(1.03);
 }
 
