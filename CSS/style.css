@@ -127,10 +127,14 @@ footer p {
     display: inline-block;
 }
 
+.footer-link{
+    color:white;
+}
+
 @media only screen and (max-width:600px){
 
     body{
-        grid-template-rows: 1fr 16fr 1fr;
+        grid-template-rows: 1fr 16fr 9%;
     }
 
     #skins {
