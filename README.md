@@ -9,7 +9,7 @@ Build a Tribute Page about anyone or anything following the user requirements.
 - Also the **img-div** element has an element with an **id img-caption**.
 - You should use an element with an **id tribute-info** to describe the webpage context.
 - It needs to have an **a** label with the corresponding ** id tribute-link** to join the webpage with a bigger information source.
-- The** img** element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+- The ** img** element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 - The **img** element should be centered within its parent element.
 ### Tools That Can Be Used
 - HTML
