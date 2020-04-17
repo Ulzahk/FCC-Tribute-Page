@@ -1,7 +1,9 @@
 # FCC-Tribute-Page
-## Objective
+
+### Objective 🎯
 Build a Tribute Page about anyone or anything following the user requirements.
-### User Requirements
+
+### User Requirements 📜
 - Have an element with an **id main**.
 - Use an **id title** which contain a descriptive text.
 - Use an **div** label with an **id img-div**.
@@ -11,7 +13,8 @@ Build a Tribute Page about anyone or anything following the user requirements.
 - It needs to have an **a** label with the corresponding **id tribute-link** to join the webpage with a bigger information source.
 - The **img** element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 - The **img** element should be centered within its parent element.
-### Tools That Can Be Used
+
+### Tools That Can Be Used 🛠
 - HTML
 - CSS
 - JavaScript
